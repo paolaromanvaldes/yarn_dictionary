@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yarn Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Yarn Dictionary</h1>
+        <nav>
+            <ul>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#random-yarn">Random Yarn Generator</a></li>
+                <li><a href="#yarn-map">Yarn Map</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>This yarn dictionary provides </p>
+    </section>
+
+    <section id="random-yarn">
+        <h2>Random Yarn Generator</h2>
+        <div class="yarn-display">
+            <p>Click the button to generate a random yarn.</p>
+            <button id="generate-yarn">Generate Yarn</button>
+            <div id="yarn-stats">
+                <!-- Yarn stats will be displayed here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="yarn-map">
+        <h2>Yarn Map</h2>
+        <p>Select a region and country to explore yarns from that location.</p>
+        <div class="map-container">
+            <select id="region-select">
+                <option value="" disabled selected>Select Region</option>
+                <option value="north-america">North America</option>
+                <option value="europe">Europe</option>
+                <option value="asia">Asia</option>
+                <!-- Add more regions as needed -->
+            </select>
+
+            <select id="country-select">
+                <option value="" disabled selected>Select Country</option>
+                <!-- Countries will be dynamically populated based on region -->
+            </select>
+
+            <div id="yarn-list">
+                <!-- Yarns from selected country will be displayed here -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yarn Dictionary</p>
+    </footer>
+</body>
+</html>
