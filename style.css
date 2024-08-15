@@ -5,11 +5,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: #333;
+    color: #c01693;
 }
 
 header {
-    background-color: #333;
+    background-color: #82c510;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -48,7 +48,7 @@ section {
 }
 
 h2 {
-    color: #444;
+    color: #82c510;
     margin-bottom: 10px;
 }
 
@@ -59,7 +59,7 @@ h2 {
 
 button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #82c510;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -67,7 +67,7 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #c01693;
 }
 
 #yarn-stats, #yarn-list {
@@ -80,7 +80,7 @@ button:hover {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
+    background-color: #82c510;
     color: #fff;
     margin-top: 20px;
 }
